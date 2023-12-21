@@ -1,0 +1,204 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Roboto';
+  }
+  .head-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90vw;
+  }
+  .heading {
+    font-size: 40px;
+    color: #1e293b;
+    align-self: flex-start;
+  }
+  .comments-img-card {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 90vw;
+    border-bottom: 2px solid #cbd2d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .comments-card {
+  }
+
+  .para {
+    font-size: 15px;
+    color: #334155;
+  }
+  .input-name {
+    height: 40px;
+    width: 270px;
+    border: 1px solid #dee0e3;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+  }
+  .enter-text {
+    margin-top: 13px;
+    border: 1px solid #dee0e3;
+    border-radius: 5px;
+    padding: 8px;
+    width: 270px;
+    outline: none;
+  }
+  .add-btn {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+  }
+
+  .comment-img {
+    height: 300px;
+    width: 280px;
+    margin-left: ;
+    margin-top: 10px;
+  }
+
+  .count-card {
+    width: 90vw;
+    display: flex;
+  }
+  .count-box {
+    background-color: #0284c7;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .count-comment {
+    color: #334155;
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .added-comments-card {
+    width: 90vw;
+    list-style-type: none;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Roboto';
+  }
+  .head-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 75vw;
+  }
+  .heading {
+    font-size: 40px;
+    color: #1e293b;
+    align-self: flex-start;
+  }
+  .comments-img-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+    border-bottom: 2px solid #cbd2d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .comments-card {
+  }
+
+  .para {
+    font-size: 15px;
+    color: #334155;
+  }
+  .input-name {
+    height: 40px;
+    width: 270px;
+    border: 1px solid #dee0e3;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+  }
+  .enter-text {
+    margin-top: 13px;
+    border: 1px solid #dee0e3;
+    border-radius: 5px;
+    padding: 8px;
+    height: 270px;
+    width: 270px;
+    outline: none;
+  }
+  .add-btn {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+  }
+
+  .comment-img {
+    height: 300px;
+    width: 300px;
+    margin-left: ;
+    margin-top: 37px;
+  }
+
+  .count-card {
+    width: 75vw;
+    display: flex;
+  }
+  .count-box {
+    background-color: #0284c7;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    color: #ffffff;
+    border-radius: 7px;
+  }
+  .count-comment {
+    color: #334155;
+    margin-top: 28px;
+    font-size: 17px;
+    margin-left: 15px;
+  }
+
+  .added-comments-card {
+    width: 75vw;
+    list-style-type: none;
+    margin-right: 90px;
+  }
+}
